@@ -21,3 +21,7 @@ weight = 0
 |Tue, 03. June  | **[Shader Techniques]({{< ref "day_09_shader_techniques" >}})**    | Exploring various shader techniques and effects. | Vertex shader that translates along normal | Working with shader editor |
 |Mon, 04. June  | **[Shaders in Engines]({{< ref "day_10_shader_in_engines" >}})**    | Integrating shaders into game engines. | Toon shading | Texture access, material effects |
 
+
+## [hfu.li/COD-III](https://hfu.li/COD-III)
+
+![QR-Code](./QR-hfu-li-COD-III.svg)
