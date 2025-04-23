@@ -19,7 +19,7 @@ weight = 0
 |Wed, 28. May   | **[Scene Graph]({{< ref "day_07_scene_graph" >}})**    | Introduction to scene graphs and hierarchical transformations. | Implement small scene graph library (nodes, children, traversal) | Show scene graph |
 |Fri, 30. May   | **[Robot Scene]({{< ref "day_08_robot_scene" >}})**    | Creating a complex scene with a robot model. | Use scene graph to create hierarchical robot model | Edit scene graph |
 |Tue, 03. June  | **[Shader Techniques]({{< ref "day_09_shader_techniques" >}})**    | Exploring various shader techniques and effects. | Vertex shader that translates along normal | Working with shader editor |
-|Mon, 04. June  | **[Shaders in Engines]({{< ref "day_10_shader_in_engines" >}})**    | Integrating shaders into game engines. | Toon shading | Texture access, material effects |
+|Wed, 04. June  | **[Shaders in Engines]({{< ref "day_10_shader_in_engines" >}})**    | Integrating shaders into game engines. | Toon shading | Texture access, material effects |
 
 
 ## [hfu.li/COD-III](https://hfu.li/COD-III)
