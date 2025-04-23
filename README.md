@@ -1,2 +1,2 @@
 # Orga
-Organisation für das Fach Code 3 in GMB
+Unterrichtsmaterial/Inhaltsseiten zur Veranstaltung Code 3 in GMB

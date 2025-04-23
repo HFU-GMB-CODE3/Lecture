@@ -10,7 +10,7 @@ weight = 0
 
 |Day            | Topic                         | Description       | WebGL | Godot |
 |---            |---                            |---                | ---   | --- |
-|Fri, 16. May   | **[Hello Code 3]({{< ref "day_01_hello_code_3" >}})**    | Introduction to the course and setup instructions. | Setup editor, hello world | Install Godot, hello world |
+|Tue, 13. May   | **[Hello Code 3]({{< ref "day_01_hello_code_3" >}})**    | Introduction to the course and setup instructions. | Setup editor, hello world | Install Godot, hello world |
 |Tue, 20. May   | **[Rendering Pipeline]({{< ref "day_02_rendering_pipe" >}})**    | Overview of the rendering pipeline and its stages. | Triangle through pipeline | ? |
 |Wed, 21. May   | **[Simple Cube]({{< ref "day_03_simple_cube" >}})**    | Creating and rendering a simple 3D cube. | Create simple 3D geometry | Loading assets in Godot |
 |Thu, 22. May   | **[Perspective animated Cube]({{< ref "day_04_perspective_cube" >}})**    | Applying perspective projection to the cube. | Create animation loop with geoemtric transforms | What happens when you press play |
