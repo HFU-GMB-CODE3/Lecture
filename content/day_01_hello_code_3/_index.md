@@ -6,15 +6,17 @@ weight = 10
 +++
 
 ## Goals
-Entwicklungsumgebung läuft.
-2D-Hello-World in JavaScript/WebGL
-Godot installieren, UI kennen lernen
+
+Get the development environment set up and running.
+
+- Visual Studio Code for JavaScript/WebGL
+- Install Godot and get familiar with the script editor
 
 ## Assignment
 
 - Install Editor
 - Install Add-Ons
-- Code something
+- Get the sample code running: GitHub Classroom [WebGL Hello World](https://classroom.github.com/a/FV5l76a_)
 
 ## Questions
 
@@ -22,12 +24,9 @@ Godot installieren, UI kennen lernen
 
 ## Material
   
-  - [Hello Triangle](https://www.xrio.io/)
- 
+- GitHub Classroom [WebGL Hello World](https://classroom.github.com/a/FV5l76a_)
+- [Slides about WebGL](files/CODE3-01-WebGL.pdf)
+
 ## Insights
 
 - TBD
-
-Example Image: 
-
-![Example Image](images/example_image.png)
