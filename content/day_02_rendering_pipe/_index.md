@@ -37,7 +37,7 @@ Render one triangle on the screen using WebGL.
 
 ## Material
   
-- Slides: [Hello World (two triangles) in WebGL](files/CODE3-01-HelloWorld.pdf)
+- Slides: [Hello World in WebGL](files/CODE3-01-HelloWorld.pdf)
 - Utils for WebGL: [Utils.zip](files/utils.zip)
 
 ## Insights
