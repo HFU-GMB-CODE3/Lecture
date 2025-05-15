@@ -1,6 +1,6 @@
 +++
 title = 'The Rendering Pipeline'
-date = 2024-09-28T15:27:29+02:00
+date = 2025-05-15T00:00:00+02:00
 draft = false
 weight = 20 
 +++
@@ -23,10 +23,6 @@ Render one triangle on the screen using WebGL.
 
 **In any case you need to understand what you are doing.**
 
-## Questions
-
-- TBD
-
 ## Material
   
 - Slides:
@@ -34,6 +30,47 @@ Render one triangle on the screen using WebGL.
   - [Hello 3D in WebGL](files/CODE3-02-Hello3D.pdf)
   - [Following the Rendering Pipeline](files/CODE3-03-RenderingPipeline.pdf)
 - Utils for WebGL: [Utils.zip](files/utils.zip)
+
+## Tasks (for the "Hello WebGL" demo)
+
+In the following, some tasks are listed that need to be implemented in order to better understand the implemented code.
+
+### Simple
+
+(small and easy code changes)
+
+- [ ] Change the **size** of the triangle
+- [ ] Change the **color** of the triangle
+- [ ] Change the color of the **background**
+
+### Complex
+
+(needs new functions)
+
+- [ ] Render the triangles as **points** (check [webgl-points-lines-triangles](https://webgl2fundamentals.org/webgl/lessons/webgl-points-lines-triangles.html) for help)
+- [ ] Render the triangles as **lines** (check [webgl-points-lines-triangles](https://webgl2fundamentals.org/webgl/lessons/webgl-points-lines-triangles.html) for help)
+- [ ] Draw one thousand triangles instead of one.
+
+## Tasks (for the "Hello 3D" demo)
+
+In the following, some tasks are listed that need to be implemented in order to better understand the implemented code.
+
+### Simple
+
+(small and easy code changes)
+
+- [ ] Change the **size** of the triangles
+- [ ] Change the **color** of the triangles
+- [ ] Change the color of the **background**
+
+### Complex
+
+(needs new functions)
+
+- [ ] Render the triangles as **points** (check [webgl-points-lines-triangles](https://webgl2fundamentals.org/webgl/lessons/webgl-points-lines-triangles.html) for help)
+- [ ] Render the triangles as **lines** (check [webgl-points-lines-triangles](https://webgl2fundamentals.org/webgl/lessons/webgl-points-lines-triangles.html) for help)
+- [ ] Change the perspective of the camera (check [webgl-camera](https://webgl2fundamentals.org/webgl/lessons/webgl-camera.html) for help)
+- [ ] Draw one thousand triangles instead of two.
 
 ## Insights
 
