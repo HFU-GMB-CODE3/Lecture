@@ -69,7 +69,7 @@ In the following, some tasks are listed that need to be implemented in order to 
 
 - [ ] Render the triangles as **points** (check [webgl-points-lines-triangles](https://webgl2fundamentals.org/webgl/lessons/webgl-points-lines-triangles.html) for help)
 - [ ] Render the triangles as **lines** (check [webgl-points-lines-triangles](https://webgl2fundamentals.org/webgl/lessons/webgl-points-lines-triangles.html) for help)
-- [ ] Change the perspective of the camera (check [webgl-camera](https://webgl2fundamentals.org/webgl/lessons/webgl-camera.html) for help)
+- [ ] Change the perspective of the camera (check [webgl-camera](https://webgl2fundamentals.org/webgl/lessons/webgl-3d-camera.html) for help)
 - [ ] Change the second parameter in the `gl.uniformMatrix4fv(modelMatrixLocation, false, modelViewMatrix);` function call to `true` and check the result.
 - [ ] Draw one thousand triangles instead of two.
 
