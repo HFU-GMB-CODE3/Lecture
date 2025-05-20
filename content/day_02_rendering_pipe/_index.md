@@ -75,4 +75,5 @@ In the following, some tasks are listed that need to be implemented in order to 
 
 ## Insights
 
-- It took 90 minutes to implement the first demo.
+- It took 90 minutes to implement the first [demo](files/CODE3-01-HelloWorld.pdf)
+- Also the second [demo](files/CODE3-02-Hello3D.pdf) took about 90 minutes to implement and before that the theory was explained along the [Following the Rendering Pipeline](files/CODE3-03-RenderingPipeline.pdf) slides.
