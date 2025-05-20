@@ -14,8 +14,11 @@ Get the development environment set up and running.
 
 ## Assignment
 
-- Install Editor
+- Install code editor e.g. [Visual Studio Code](https://code.visualstudio.com/)
 - Install Add-Ons
+  - For VS Code:
+    - JavaScript: [ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint)
+    - GLSL: [WebGL-GLSL-Editor](https://marketplace.visualstudio.com/items?itemName=raczzalan.webgl-glsl-editor)
 - Get the sample code running: GitHub Classroom [WebGL Hello World](https://classroom.github.com/a/FV5l76a_)
 
 ## Questions

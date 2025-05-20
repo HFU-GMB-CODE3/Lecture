@@ -9,7 +9,6 @@ weight = 30
 
 Flat shaded cube with rotation animation and perspective camera
 
-
 ## Assignment
 
 **Use the repository from last time and follow the instructions in the slides:**
@@ -28,6 +27,7 @@ Flat shaded cube with rotation animation and perspective camera
   
 - Slides:
   - [A 3D cube in WebGL](files/CODE3-04-Cube.pdf)
+  - [Transformations in WebGL](files/CODE3-05-Transformations.pdf)
 
 ## List of things to implement extending the cube 3D demo
 
