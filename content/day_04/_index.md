@@ -1,8 +1,7 @@
 +++
 title = 'Cylinder'
-date = 2024-09-28T15:27:29+02:00
 draft = false
-weight = 60
+weight = 40
 +++
 
 ## Goals
