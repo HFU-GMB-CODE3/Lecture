@@ -32,4 +32,4 @@ Get the development environment set up and running.
 
 ## Insights
 
-- TBD
+- A recent discussion on [Bluesky](https://bsky.app/profile/ericlengyel.bsky.social/post/3lpgaahgjws2f) about downgrading from D3D12 to 11 due to the complexity of the API and the need for a more straightforward approach to graphics programming.

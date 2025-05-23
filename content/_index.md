@@ -13,7 +13,7 @@ weight = 0
 |Wed, 21. May   | **[Simple Cube]({{< ref "day_03" >}})**    | Creating and rendering a simple 3D cube. | Create simple 3D geometry |  |
 |Thu, 22. May   | **[Cylinder]({{< ref "day_04" >}})**    | Mesh Data in Godot |  | Modeling and rendering a 3D cylinder. |
 |Fri, 23. May   | **[TBD]({{< ref "day_05" >}})**    | TBD | TBD | TBD |
-|Tue, 27. May   | **[TBD]({{< ref "day_06" >}})**    | TBD | TBD | TBD |
+|Tue, 27. May   | **[Lighting]({{< ref "day_06" >}})**    | Add interaction and lights | Normals, lighting, shading |  |
 |Wed, 28. May   | **[TBD]({{< ref "day_07" >}})**    | TBD | TBD | TBD |
 |Fri, 30. May   | **[TBD]({{< ref "day_08" >}})**    | TBD | TBD | TBD |
 |Tue, 03. June  | **[TBD]({{< ref "day_09" >}})**    | TBD | TBD | TBD |
