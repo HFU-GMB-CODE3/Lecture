@@ -27,7 +27,7 @@ We first restructure the code to better understand the transformations. Then we 
   
 - Slides:
   - [Interactive cube in WebGL](files/CODE3-04-InteractiveCube.pdf)
-  - tbd: [Illuminated cube in WebGL](files/CODE3-05-ShadedCube.pdf)
+  - [Illuminated cube in WebGL](files/CODE3-05-ShadedCube.pdf)
 - Utils for WebGL: [resources.zip](files/resources.zip) and [utils.zip](files/utils.zip) (new content!)
 - Web links:
   - [The Magic of the LookAt Matrix by Carmen Cincotti](https://medium.com/@carmencincotti/lets-look-at-magic-lookat-matrices-c77e53ebdf78)
