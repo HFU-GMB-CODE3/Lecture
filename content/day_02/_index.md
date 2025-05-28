@@ -29,7 +29,7 @@ Render one triangle on the screen using WebGL.
   - [Hello World in WebGL](files/CODE3-01-HelloWorld.pdf)
   - [Hello 3D in WebGL](files/CODE3-02-Hello3D.pdf)
   - [Following the Rendering Pipeline](files/CODE3-03-RenderingPipeline.pdf)
-- Utils for WebGL: [Utils.zip](files/utils.zip)
+- Utils for WebGL: [utils.zip](files/utils.zip)
 
 ## Tasks (for the "Hello WebGL" demo)
 
