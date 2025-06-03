@@ -15,9 +15,10 @@ weight = 0
 |Fri, 23. May   | **[TBD]({{< ref "day_05" >}})**    | TBD | TBD | TBD |
 |Tue, 27. May   | **[Lighting]({{< ref "day_06" >}})**    | Add interaction and lights | Normals, lighting, shading |  |
 |Wed, 28. May   | **[TBD]({{< ref "day_07" >}})**    | TBD | TBD | TBD |
-|Fri, 30. May   | **[TBD]({{< ref "day_08" >}})**    | TBD | TBD | TBD |
-|Tue, 03. June  | **[TBD]({{< ref "day_09" >}})**    | TBD | TBD | TBD |
-|Wed, 04. June  | **[TBD]({{< ref "day_10" >}})**    | TBD | TBD | TBD |
+|Tue, 03. June   | **[TBD]({{< ref "day_08" >}})**    | TBD | TBD | TBD |
+|Wed, 04. June  | **[Spot light]({{< ref "day_09" >}})**    | Fixing bugs and improve lighting | Debugging in WebGL | - |
+|Thu, 05. June  | **[Textures]({{< ref "day_10" >}})**    | Textures | Adding textures | - |
+|Fri, 06. June  | **[Project]({{< ref "day_11" >}})**    | Project | - | Finish shader |
 
 ## [hfu.li/COD-III](https://hfu.li/COD-III)
 

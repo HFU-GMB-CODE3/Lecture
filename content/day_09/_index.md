@@ -1,23 +1,29 @@
 +++
-title = 'Advanced Shader techniques'
+title = 'Spotlight'
 date = 2024-09-28T15:27:29+02:00
 draft = false
 weight = 90
 +++
 
-Texturing? Environment mapping with spherical panoramas? Horizon dissolving using cylindrical or squared up-axis adaption? Make objects thinner or thicker by extruding vertices along their normal?
+Adding a spotlight in WebGL.
 
-## Assignment
+## Plan
 
-- TBD
+We start with the debug code, you get here: [GitHub Classroom](https://classroom.github.com/a/GUy5N4Qb)
 
-## Questions
+- Fix the mouse rotation
+- Fix the camera and view matrix if needed
 
-- TBD
+We then add normals and a point light source which we turn into a spot light (using step function in shader)
 
-## Material
+## Slides
+
+- Debugging: [slides](files/CODE3-Debugging.pdf)
+- Spotlight: [slides](files/CODE3-Spotlight.pdf)
+
+## Tasks
   
-- TBD
+- [ ] Make it a soft spot with smoothstep and a double slider for the inner and outer radius
  
 ## Insights
 
