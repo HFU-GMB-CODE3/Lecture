@@ -26,6 +26,7 @@ While this task can be broken down in quite a number of individual steps, each p
 ![03](img/03_geometry_raster.png)
 
 1. The **Geometry** part takes each incoming vertex with its (x, y, z) coordinates present in _Model Space_ (the coordinates that the vertex was assigned when it was modeled, e. g. in Blender's Edit Mode). It then converts the vertex' coordinates into _Screen Space_. To to this, it applies all transformations present in the path from the scene root to the model. In addition it performs the (inverted) camera transformation. As a result, the vertex new coordinates are then in screen space, allowing to identify the pixel in the resulting image where the respective vertex will be positioned.
+
     > ### 🪛 TODO
     >
     > In the above solar system example, what transformations must be applied to all vertices of the Moon mesh?
@@ -48,7 +49,7 @@ Godot users can define their own shaders using a [`ShaderMaterial`](https://docs
 
 A ShaderMaterial must be given the file name of the shader code (with the ".gdshader" extension). When creating a new shader code file, an empty shader is created.
 
-```cpp
+```glsl
 shader_type spatial;
 
 void vertex() {
@@ -65,7 +66,7 @@ Although both, `vertex` and `fragment` shaders contain an empty implementation, 
 
 To switch off the vertex transformation, add 
 
-```cpp
+```glsl
 render_mode skip_vertex_transform;
 ```
 
@@ -73,7 +74,7 @@ to the top of the shader.
 
 To switch off any color calculation, add 
 
-```cpp
+```glsl
 render_mode unshaded;
 ```
 
@@ -91,9 +92,9 @@ to the top of the shader.
 >
 > Add a fraction of the normal to the vertex resulting in the geometry appearing thicker or thinner depending on how big the fraction is.
 >
-> In the (`unshaded`) fragment shader, set the resulting color of the current fragment/pixel by applying a threedimensional color (rgb, e.g. green: (0, 1, 0)) value scaled by the angle between a light direction directly from the current camera's viewing direction and the fragment's normal to the **Albedo**
+> In the (`unshaded`) fragment shader, set the resulting color of the current fragment/pixel by applying a three-dimensional color (rgb, e.g. green: (0, 1, 0)) value scaled by the angle between a light direction directly from the current camera's viewing direction and the fragment's normal to the **Albedo**
 >
-> ```cpp
+> ```glsl
 > ALBEDO = vec3(0, 1, 0) * dot(vec3(0, 0, 1), NORMAL);
 > ``` 
 >

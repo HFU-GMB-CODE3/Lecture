@@ -15,9 +15,9 @@ To simulate the impression of a hand-drawn image in comic-book-style, we can com
 
 1. The first pass (cell pass) renders the geometry with usual transformation (no other than the transformation performed in Godot's standard vertex shader). In the fragment shader, the object's base color (either one color for the entire object or a color looked up from a texture accompanying the model) is shaded (darkened) in one of a very small number of discrete different brightness levels (e.g. three: light, medium, dark). This simulates the effect how a comic painter tries to visualize lighting: lacking a huge number of differently shaded color pencils for each color, they will draw the cell-like impression with hard transitions from one brightness level to the next.
 
-2. The second pass (outline pass) inflates the geometry in the vertex shader using the "normal-trick" from the last lesson. The result is entirely painted in black (or a user-defined color) in the fragment shader. This will generate the black outline around the objects.
+2. The second pass (outline pass) inflates the geometry in the vertex shader using the "normal-trick" from the last lesson. The result is entirely painted in black (or a user-defined color) in the fragment shader. This will generate the dark outline around the objects.
 
-Although it might have sounded more intuitive to first mention the outline pass as the cell pass is somewhat expected to paint over the inflated black silhouette, we will find out that it does not play a role in which order the passes are performed since making the cell-colored pixels replace the black outline will be realized purely by having the colored geometry being placed in front of the black inflated geometry within 3D space. Let's find out how this is accomplished:
+It might have sounded more intuitive to first mention the outline pass and then the cell pass, because the color is somewhat expected to paint over the inflated black silhouette, we will find out that it does not play a role in which order the passes are performed since making the cell-colored pixels replace the black outline will be realized purely by having the colored geometry being placed in front of the black inflated geometry within 3D space. Let's find out how this is accomplished:
 
 
 ## Multipass Rendering in Godot
@@ -50,7 +50,7 @@ void fragment() {
 }
 ```
 
-The most interesting part is the solution to how the black pixels of the silhouette are positioned _behind_ the colored pixels from the cell pass. This is done by painting only the "rear-sided" triangles - those which are facing away from the camera. This way the (rather) concave inside of a half shell of the geometry is painted in black which will then be filled with the colored geoemetry. To achieve this, the cull mode which normally culls all triangles facing away from the viewer is reverted by the statement `render_mode cull_front` at the top of the shader.
+The most interesting part is the solution to how the black pixels of the silhouette are positioned _behind_ the colored pixels from the cell pass. This is done by painting only the "rear-sided" triangles - those which are facing away from the camera. This way the (rather) concave inside of a half shell of the geometry is painted in black which will then be filled with the colored geometry. To achieve this, the cull mode which normally culls all triangles facing away from the viewer is reverted by the statement `render_mode cull_front` at the top of the shader.
 
 ## The Cell Shader
 
