@@ -43,8 +43,7 @@ weight = 0
 -->
 
 
-For the final project, you can choose between WebGL and Godot. The project will be presented in the last week of the course. 
-<!-- Please upload your project to GitHub using this GitHub Classroom link: [GitHub Classroom](https://classroom.github.com/a/OHrUAKAB). Add a readme.md file so that we can understand your project. The readme should include:--> In Addition to the project, you will also need to submit a report (Markdown or PDF) that includes the following information:
+For the final project, you can choose between WebGL and Godot. The project will be presented in the last week of the course. The entire project (including the source code) needs to be submitted by the end of the course block. <!-- Please upload your project to GitHub using this GitHub Classroom link: [GitHub Classroom](https://classroom.github.com/a/OHrUAKAB). Add a readme.md file so that we can understand your project. The readme should include:--> Besides the project, you will also need to submit a report (Markdown or PDF) that includes the following information:
 
 - A short description of your project
 - How to run it (e.g., which files to open, how to start the server, etc.)
