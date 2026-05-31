@@ -12,7 +12,7 @@ theme = 'hugo-theme-relearn'
     { identifier = "relearn-bright", name = "Colors: Bright" }
   ]
   externalLinkTarget='_blank'
-
+  hideAuthorDate = true
 
   disableLandingPageButton = true
   math = true
