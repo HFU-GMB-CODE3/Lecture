@@ -1,0 +1,52 @@
+[gd_scene load_steps=8 format=3 uid="uid://ds60aypkr2h"]
+
+[ext_resource type="Script" uid="uid://wco63qad810r" path="res://main.gd" id="1_0xm2m"]
+[ext_resource type="Texture2D" uid="uid://bjbjqs3m6wdi8" path="res://MeterGrid.png" id="1_ig7tw"]
+
+[sub_resource type="ProceduralSkyMaterial" id="ProceduralSkyMaterial_0xm2m"]
+sky_top_color = Color(0.637394, 0.633492, 0.664296, 1)
+sky_horizon_color = Color(1.04336, 1.04998, 1.03495, 1)
+ground_bottom_color = Color(0.313081, 0.343462, 0.252548, 1)
+ground_horizon_color = Color(1.04336, 1.04998, 1.03495, 1)
+
+[sub_resource type="Sky" id="Sky_h2yge"]
+sky_material = SubResource("ProceduralSkyMaterial_0xm2m")
+
+[sub_resource type="Environment" id="Environment_1bvp3"]
+background_mode = 2
+sky = SubResource("Sky_h2yge")
+tonemap_mode = 2
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_0xm2m"]
+albedo_color = Color(0.495565, 0.495565, 0.495565, 1)
+albedo_texture = ExtResource("1_ig7tw")
+uv1_scale = Vector3(5, 5, 5)
+uv1_triplanar = true
+uv1_world_triplanar = true
+
+[sub_resource type="CylinderMesh" id="CylinderMesh_h2yge"]
+material = SubResource("StandardMaterial3D_0xm2m")
+height = 0.05
+
+[node name="Main" type="Node3D"]
+script = ExtResource("1_0xm2m")
+
+[node name="WorldEnvironment" type="WorldEnvironment" parent="."]
+environment = SubResource("Environment_1bvp3")
+
+[node name="DirectionalLight3D" type="DirectionalLight3D" parent="."]
+transform = Transform3D(-0.866023, -0.433016, 0.250001, 0, 0.499998, 0.866027, -0.500003, 0.749999, -0.43301, 0, 0, 0)
+shadow_enabled = true
+
+[node name="Tabletop" type="MeshInstance3D" parent="."]
+transform = Transform3D(1.00683, 0, 0, 0, 1.00683, 0, 0, 0, 1.00683, 0, -0.025, 0)
+mesh = SubResource("CylinderMesh_h2yge")
+
+[node name="CameraRig" type="Node3D" parent="."]
+transform = Transform3D(0.998231, 0, 0.0594632, 0, 1, 0, -0.0594632, 0, 0.998231, 0, 0, 0)
+
+[node name="CameraArm" type="Node3D" parent="CameraRig"]
+transform = Transform3D(0.999996, -0.00276327, -0.00067016, 0.00284257, 0.977172, 0.21243, 6.786e-05, -0.212431, 0.977176, 0, 0, 0)
+
+[node name="Camera3D" type="Camera3D" parent="CameraRig/CameraArm"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 1.47919)

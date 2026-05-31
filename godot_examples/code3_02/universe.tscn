@@ -1,0 +1,76 @@
+[gd_scene load_steps=13 format=3 uid="uid://chy6eyf10xoa4"]
+
+[ext_resource type="Script" uid="uid://cc488te1wxpci" path="res://earth_rig.gd" id="1_ksisf"]
+[ext_resource type="Shader" uid="uid://dib4smnsvynua" path="res://universe.gdshader" id="2_ol24e"]
+[ext_resource type="Script" uid="uid://xgfnn6vus63v" path="res://moon_rig.gd" id="2_onkyh"]
+
+[sub_resource type="ProceduralSkyMaterial" id="ProceduralSkyMaterial_onkyh"]
+sky_top_color = Color(0.0512498, 0.0706102, 0.0975326, 1)
+sky_horizon_color = Color(0.258518, 0.26555, 0.276652, 1)
+ground_bottom_color = Color(0.0703769, 0.086761, 0.123292, 1)
+ground_horizon_color = Color(0.253133, 0.260058, 0.270991, 1)
+
+[sub_resource type="Sky" id="Sky_ol24e"]
+sky_material = SubResource("ProceduralSkyMaterial_onkyh")
+
+[sub_resource type="Environment" id="Environment_tcg2k"]
+background_mode = 2
+sky = SubResource("Sky_ol24e")
+tonemap_mode = 2
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_tcg2k"]
+render_priority = 0
+shader = ExtResource("2_ol24e")
+
+[sub_resource type="SphereMesh" id="SphereMesh_d0y5q"]
+material = SubResource("ShaderMaterial_tcg2k")
+radius = 0.25
+height = 0.5
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_wp8oq"]
+albedo_color = Color(0.28078, 0.265635, 0.207472, 1)
+
+[sub_resource type="SphereMesh" id="SphereMesh_ncg7h"]
+material = SubResource("StandardMaterial3D_wp8oq")
+radius = 0.125
+height = 0.25
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_u640v"]
+albedo_color = Color(1, 0.870044, 0.437171, 1)
+emission_enabled = true
+emission = Color(1, 0.873279, 0.46658, 1)
+
+[sub_resource type="SphereMesh" id="SphereMesh_sraih"]
+material = SubResource("StandardMaterial3D_u640v")
+
+[node name="Universe" type="Node3D"]
+
+[node name="OmniLight3D" type="OmniLight3D" parent="."]
+light_energy = 9.571
+omni_range = 7.141
+omni_attenuation = 1.286
+
+[node name="WorldEnvironment" type="WorldEnvironment" parent="."]
+environment = SubResource("Environment_tcg2k")
+
+[node name="Camera3D" type="Camera3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 0.939046, 0.343791, 0, -0.343791, 0.939046, 0, 1.12577, 4.01296)
+
+[node name="EarthRig" type="Node3D" parent="."]
+transform = Transform3D(0.999936, 0, 0.0113095, 0, 1, 0, -0.0113095, 0, 0.999936, 0, 0, 0)
+script = ExtResource("1_ksisf")
+
+[node name="Earth" type="MeshInstance3D" parent="EarthRig"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 2)
+mesh = SubResource("SphereMesh_d0y5q")
+
+[node name="MoonRig" type="Node3D" parent="EarthRig"]
+transform = Transform3D(0.999883, 0, -0.015271, 0, 1, 0, 0.015271, 0, 0.999883, 0, 0, 2)
+script = ExtResource("2_onkyh")
+
+[node name="Moon" type="MeshInstance3D" parent="EarthRig/MoonRig"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0.5804)
+mesh = SubResource("SphereMesh_ncg7h")
+
+[node name="Sun" type="MeshInstance3D" parent="."]
+mesh = SubResource("SphereMesh_sraih")
