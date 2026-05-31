@@ -1,7 +1,7 @@
 +++
 title = 'Cylinder Part II'
-draft = false
-weight = 50
+draft = true
+weight = 1050
 +++
 
 All contents presented on this day this day is covered by the previous chapter (Cylinder)

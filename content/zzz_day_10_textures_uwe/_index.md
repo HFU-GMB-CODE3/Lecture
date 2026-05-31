@@ -1,7 +1,7 @@
 +++
 title = 'Textures'
-draft = false
-weight = 100
+draft = true
+weight = 1100
 +++
 
 ## Goal

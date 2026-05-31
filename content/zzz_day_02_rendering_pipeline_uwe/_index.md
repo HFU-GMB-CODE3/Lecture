@@ -1,8 +1,7 @@
 +++
 title = 'The Rendering Pipeline'
-date = 2025-05-15T00:00:00+02:00
-draft = false
-weight = 20 
+draft = true
+weight = 1020 
 +++
 
 ## Goals

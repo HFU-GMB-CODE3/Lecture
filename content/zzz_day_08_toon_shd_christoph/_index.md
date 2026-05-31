@@ -1,7 +1,7 @@
 +++
 title = 'Toon Shading'
-draft = false
-weight = 80
+draft = true
+weight = 1080
 +++
 
 ![01](img/01_toonshader_result.png)

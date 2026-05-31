@@ -1,7 +1,7 @@
 +++
 title = 'Spotlight'
-draft = false
-weight = 90
+draft = true
+weight = 1090
 +++
 
 Adding a spotlight in WebGL.
