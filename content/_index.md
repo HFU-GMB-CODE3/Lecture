@@ -5,23 +5,23 @@ draft = false
 weight = 0
 +++
 
-| Day           | Start Lecture | Contents                                                                         | Notes                      |
-|---------------|---------------|----------------------------------------------------------------------------------|----------------------------|
-| Mon, 01 Jun   | 14:00         | [Introduction to Procedural Geometry in Godot](./topic_01_proc_geo_in_godot_ch)  | Morning: free half day     |
-| Tue, 02 Jun   | 09:45         | [Hello WebGL](./topic_02_hello_webgl_uw)                                         |                            |
-| Wed, 03 Jun   | 09:45         |                                                                                  |                            |
-| Fri, 05 Jun   | 09:45         |                                                                                  |                            |
-| Mon, 08 Jun   | 10:45         |                                                                                  |                            |
-| Tue, 09 Jun   | 09:45         |                                                                                  |                            |
-| Wed, 10 Jun   | 09:45         |                                                                                  |                            |
-| Thu, 11 Jun   | 14:00         |                                                                                  | Morning: free half day     |
-| Fri, 12 Jun   | 09:45         |                                                                                  |                            |
-| Mon, 15 Jun   | 10:45         |                                                                                  |                            |
-| Tue, 16 Jun   | 09:45         |                                                                                  |                            |
-| Wed, 17 Jun   | 09:45         |                                                                                  |                            |
-| Thu, 18 Jun   | 14:00         |                                                                                  | Morning: free half day     |
-| Fri, 19 Jun   | 09:45         |                                                                                  | Exams                      |
-| Mon, 22 Jun   | 09:45         |                                                                                  | Post-exam follow-up        |
+| Day           | Start Lecture | Who | Contents                                       | Notes                  |
+|---------------|---------------|-----|------------------------------------------------|------------------------|
+| Mon, 01 Jun   | 14:00         |  C  | [Hello ArrayMesh](./topic_01_hello_arraymesh)  | Morning: free half day |                       
+| Tue, 02 Jun   | 09:45         |  U  | [Hello WebGL](./topic_02_hello_webgl_uw)       |                        |
+| Wed, 03 Jun   | 09:45         |  C  |                                                |                        |
+| Fri, 05 Jun   | 09:45         |  U  |                                                |                        |
+| Mon, 08 Jun   | 10:45         |  C  |                                                |                        |
+| Tue, 09 Jun   | 09:45         |  U  |                                                |                        |
+| Wed, 10 Jun   | 09:45         |  C  |                                                |                        |
+| Thu, 11 Jun   | 14:00         |  C  |                                                | Morning: free half day |
+| Fri, 12 Jun   | 09:45         |  U  |                                                |                        |
+| Mon, 15 Jun   | 10:45         |  C  |                                                |                        |
+| Tue, 16 Jun   | 09:45         |  U  |                                                |                        |
+| Wed, 17 Jun   | 09:45         |  C  |                                                |                        |
+| Thu, 18 Jun   | 14:00         |  U  |                                                | Morning: free half day |
+| Fri, 19 Jun   | 09:45         | U&C |                                                | Exams                  |
+| Mon, 22 Jun   | 09:45         |  U  |                                                | Post-exam follow-up    |
 
 
 

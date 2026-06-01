@@ -1,10 +1,12 @@
 +++
-title = 'Procedural Geometry in Godot'
+title = 'Hello ArrayMesh (Godot)'
 draft = false
 weight = 10
 +++
 
 ## Goals
+
+How is geometry data structured in a game engine? How can we create procedural geometry in a game engine?
 
 Flat and rounded surfaces with normals. A cylinder generated in code. In Godot.
 
