@@ -29,6 +29,3 @@ Get the development environment set up and running.
 - GitHub Classroom [WebGL Hello World](https://classroom.github.com/a/FV5l76a_)
 - [Slides about WebGL](files/CODE3-01-WebGL.pdf)
 
-## Insights
-
-- A recent discussion on [Bluesky](https://bsky.app/profile/ericlengyel.bsky.social/post/3lpgaahgjws2f) about downgrading from D3D12 to 11 due to the complexity of the API and the need for a more straightforward approach to graphics programming.
