@@ -1,7 +1,7 @@
 +++
 title = 'Interaction and textures in WebGL'
-draft = true
-weight = 1020 
+draft = false
+weight = 60 
 +++
 
 ## Goals

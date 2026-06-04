@@ -1,7 +1,7 @@
 +++
 title = '3D Rendering in WebGL'
-draft = true
-weight = 1030
+draft = false
+weight = 40
 +++
 
 ## Goals
