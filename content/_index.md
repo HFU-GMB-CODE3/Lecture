@@ -5,23 +5,23 @@ draft = false
 weight = 0
 +++
 
-| Day           | Start Lecture | Who | Contents                                       | Notes                  |
-|---------------|---------------|-----|------------------------------------------------|------------------------|
-| Mon, 01 Jun   | 14:00         |  C  | [Hello ArrayMesh](./topic_01_hello_arraymesh)  | Morning: free half day |                       
-| Tue, 02 Jun   | 09:45         |  U  | [Hello WebGL](./topic_02_hello_webgl_uw)       |                        |
-| Wed, 03 Jun   | 09:45         |  C  |                                                |                        |
-| Fri, 05 Jun   | 09:45         |  U  |                                                |                        |
-| Mon, 08 Jun   | 10:45         |  C  |                                                |                        |
-| Tue, 09 Jun   | 09:45         |  U  |                                                |                        |
-| Wed, 10 Jun   | 09:45         |  C  |                                                |                        |
-| Thu, 11 Jun   | 14:00         |  C  |                                                | Morning: free half day |
-| Fri, 12 Jun   | 09:45         |  U  |                                                |                        |
-| Mon, 15 Jun   | 10:45         |  C  |                                                |                        |
-| Tue, 16 Jun   | 09:45         |  U  |                                                |                        |
-| Wed, 17 Jun   | 09:45         |  C  |                                                |                        |
-| Thu, 18 Jun   | 14:00         |  U  |                                                | Morning: free half day |
-| Fri, 19 Jun   | 09:45         | U&C |                                                | Exams                  |
-| Mon, 22 Jun   | 09:45         |  U  |                                                | Post-exam follow-up    |
+| Day         | Start Lecture | Who | Contents                                                       | Notes                  |
+| ----------- | ------------- | --- | -------------------------------------------------------------- | ---------------------- |
+| Mon, 01 Jun | 14:00         | C   | [Hello ArrayMesh](./topic_01_hello_arraymesh)                  | Morning: free half day |
+| Tue, 02 Jun | 09:45         | U   | [Hello WebGL](./topic_02_hello_webgl_uw)                       |                        |
+| Wed, 03 Jun | 09:45         | C   |                                                                |                        |
+| Fri, 05 Jun | 09:45         | U   | [3D Rendering](./topic_04_3d_rendering_uw)                     |                        |
+| Mon, 08 Jun | 10:45         | C   |                                                                |                        |
+| Tue, 09 Jun | 09:45         | U   | [Interaction and textures](./topic_06_interaction_textures_uw) |                        |
+| Wed, 10 Jun | 09:45         | C   |                                                                |                        |
+| Thu, 11 Jun | 14:00         | C   |                                                                | Morning: free half day |
+| Fri, 12 Jun | 09:45         | U   | Lighting (link tbd)                                            |                        |
+| Mon, 15 Jun | 10:45         | C   |                                                                |                        |
+| Tue, 16 Jun | 09:45         | U   |                                                                |                        |
+| Wed, 17 Jun | 09:45         | C   |                                                                |                        |
+| Thu, 18 Jun | 14:00         | U   |                                                                | Morning: free half day |
+| Fri, 19 Jun | 09:45         | U&C |                                                                | Exams                  |
+| Mon, 22 Jun | 09:45         | U   |                                                                | Post-exam follow-up    |
 
 
 

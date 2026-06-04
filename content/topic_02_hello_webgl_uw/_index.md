@@ -28,6 +28,7 @@ weight = 20
 ## Insights
   
 - A quite recent discussion on [Bluesky](https://bsky.app/profile/ericlengyel.bsky.social/post/3lpgaahgjws2f) about downgrading from D3D12 to 11 due to the complexity of the API and the need for a more straightforward approach to graphics programming.
+- You can add the code line `/** @type {WebGLRenderingContext} */` over the `gl` variable declaration in your JavaScript file to get better code completion and error checking for WebGL in your code editor.
 
 ## Assignment 01
 
