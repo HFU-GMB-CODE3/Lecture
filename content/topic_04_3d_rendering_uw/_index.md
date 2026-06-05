@@ -39,6 +39,7 @@ weight = 40
   - [Hello 3D in WebGL](files/CODE3-04-Hello3DWebGL.pdf)
   - [A 3D cube in WebGL](files/CODE3-05-Cube.pdf)
   - [Transformations in 3D](files/CODE3-06-Transformations.pdf)
+  - [Zusätzliche Folien zu 3D-Transformationen aus einer anderen Vorlesung](files/MathMKB-06-Transformation.pdf)
 
 ## List of things to implement extending the cube 3D demo
 
