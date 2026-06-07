@@ -7,14 +7,15 @@ weight = 0
 
 | Day         | Start Lecture | Who | Contents                                                                                                     | Notes                  |
 | ----------- | ------------- | --- | ------------------------------------------------------------------------------------------------------------ | ---------------------- |
-| Mon, 01 Jun | 14:00         | C   | [Hello ArrayMesh](./topic_01_proc_hello_arraymesh_ch)                                                                | Morning: free half day |
+| Mon, 01 Jun | 14:00         | C   | [Hello ArrayMesh](./topic_01_proc_hello_arraymesh_ch)                                                        | Morning: free half day |
 | Tue, 02 Jun | 09:45         | U   | [Hello WebGL](./topic_02_hello_webgl_uw)                                                                     |                        |
-| Wed, 03 Jun | 09:45         | C   |                                                                                                              |                        |
+| Wed, 03 Jun | 09:45         | C   | [A Disc made of triangles](./topic_01_proc_hello_arraymesh_ch/index.html#3-a-disc)                           |                        |
 | Fri, 05 Jun | 09:45         | U   | [3D Rendering](./topic_04_3d_rendering_uw)                                                                   |                        |
-| Mon, 08 Jun | 10:45         | C   |                                                                                                              |                        |
+| Mon, 08 Jun | 10:45         | C   | [A Cylinder](./topic_01_proc_hello_arraymesh_ch/index.html#3-a-cylinder)                                     |                        |
 | Tue, 09 Jun | 09:45         | U   | [Interaction and textures](./topic_06_interaction_textures_uw)                                               |                        |
-| Wed, 10 Jun | 09:45         | C   | [Guest lecture](https://uhahne.github.io/3DCV/protocols/Vorlesung%2011%20-%203D%20Gaussian%20Splatting.html) |                        |
-| Thu, 11 Jun | 14:00         | C   |                                                                                                              | Morning: free half day |
+| Wed, 10 Jun | 09:45         | U   | [Guest lecture](https://uhahne.github.io/3DCV/protocols/Vorlesung%2011%20-%203D%20Gaussian%20Splatting.html) |                        |
+| Wed, 10 Jun | 11:30         | C   | [Shaders in Godot](./topic_07_rendering_and_shaders_in_godot_ch/#shaders-in-godot)                                            |                        |
+| Thu, 11 Jun | 14:00         | C   | [Shaders in Godot (continued)](./topic_07_rendering_and_shaders_in_godot_ch/)                                | Morning: free half day |
 | Fri, 12 Jun | 09:45         | U   | Lighting (link tbd)                                                                                          |                        |
 | Mon, 15 Jun | 10:45         | C   |                                                                                                              |                        |
 | Tue, 16 Jun | 09:45         | U   |                                                                                                              |                        |
