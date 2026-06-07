@@ -14,7 +14,7 @@ weight = 0
 | Mon, 08 Jun | 10:45         | C   | [A Cylinder](./topic_01_proc_hello_arraymesh_ch/index.html#3-a-cylinder)                                     |                        |
 | Tue, 09 Jun | 09:45         | U   | [Interaction and textures](./topic_06_interaction_textures_uw)                                               |                        |
 | Wed, 10 Jun | 09:45         | U   | [Guest lecture](https://uhahne.github.io/3DCV/protocols/Vorlesung%2011%20-%203D%20Gaussian%20Splatting.html) |                        |
-| Wed, 10 Jun | 11:30         | C   | [Shaders in Godot](./topic_07_rendering_and_shaders_in_godot_ch/#shaders-in-godot)                                            |                        |
+| Wed, 10 Jun | 11:30         | C   | [Shaders in Godot](./topic_07_rendering_and_shaders_in_godot_ch/#shaders-in-godot)                           |                        |
 | Thu, 11 Jun | 14:00         | C   | [Shaders in Godot (continued)](./topic_07_rendering_and_shaders_in_godot_ch/)                                | Morning: free half day |
 | Fri, 12 Jun | 09:45         | U   | Lighting (link tbd)                                                                                          |                        |
 | Mon, 15 Jun | 10:45         | C   |                                                                                                              |                        |
