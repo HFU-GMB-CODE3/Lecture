@@ -35,6 +35,9 @@ Control the cube rotation with the mouse and add a texture to the cube.
 - Slides:
   - [Interactive cube](files/CODE3-07-Interaction.pdf)
   - [Textures](files/CODE3-08-Textures.pdf)
+- Ressources:
+  - [Ressources for interaction and textures](files/resources.zip)
+  - [Utils functions for interaction and textures](files/utils.zip)
 
 ## List of things to implement extending the cube 3D demo with interaction and textures
 
