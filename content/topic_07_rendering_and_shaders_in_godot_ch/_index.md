@@ -1,7 +1,7 @@
 +++
 title = 'Introduction to Rendering and Shaders in Godot'
 draft = false
-weight = 1070
+weight = 70
 +++
 
 ## The Rendering Pipeline
