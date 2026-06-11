@@ -101,3 +101,6 @@ to the top of the shader.
 > Make the parameters such as the "thickness" used in the vertex shader or the base color or even the light direction in the fragment shader [`uniform`](https://docs.godotengine.org/en/stable/tutorials/shaders/shader_reference/shading_language.html#uniforms) variables and see how they can be controlled within Godot's User Interface.
 
 
+> ### 🪛 TODO
+> 
+> Work through the [Your First 3D Shader](https://docs.godotengine.org/en/stable/tutorials/shaders/your_first_shader/your_first_3d_shader.html) tutorial in the Godot documentation. 
