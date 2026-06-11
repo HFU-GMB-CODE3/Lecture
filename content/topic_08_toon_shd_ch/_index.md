@@ -62,6 +62,8 @@ We create the 2D lookup table as a 2D pixel image that will be used as a texture
 
 The sphere itself is not displayed as it is better to fill the entire square texture with the lowest brightness level. To generate the image, draw a helper circle (or imagine one) fitting exactly into the square texture and make sure not to paint any brightness highlights outside that circle. Make sure to **NOT** export that helper circle (the dotted line in the above image) to your shader texture. We will call this texture the _gradient_.
 
+ [Download the gradient texture here](img/toon_sphere.svg).
+
 In the cell pass' fragment shader we can use the normal at the to-be-rendered pixel to select which of the brightness cells should be used by projecting the normal onto the gradient texture and use the brightness of the texture pixel found there.
 
 ![04](img/04_normal_projection.png)
