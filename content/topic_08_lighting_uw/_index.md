@@ -26,6 +26,7 @@ We first get familiar with the code, then we implement basic lighting calculatio
   
 - Slides:
   - [Lighting](files/CODE3-09-Lighting.pdf)
+  - [Global lighting and shadows](files/CODE3-10-GlobalLightingShadows.pdf)
 - Web links:
   - [WebGL2 Fundamentals - Directional Lighting](https://webgl2fundamentals.org/webgl/lessons/webgl-3d-lighting-directional.html)
   - [WebGL2 Fundamentals - Point Lighting](https://webgl2fundamentals.org/webgl/lessons/webgl-3d-lighting-point.html)
