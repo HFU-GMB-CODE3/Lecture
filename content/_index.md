@@ -16,7 +16,7 @@ weight = 0
 | Wed, 10 Jun | 09:45         | U   | [Guest lecture](https://uhahne.github.io/3DCV/protocols/Vorlesung%2011%20-%203D%20Gaussian%20Splatting.html) |                        |
 | Wed, 10 Jun | 11:30         | C   | [Shaders in Godot](./topic_07_rendering_and_shaders_in_godot_ch/#shaders-in-godot)                           |                        |
 | Thu, 11 Jun | 14:00         | C   | [Shaders in Godot (continued)](./topic_07_rendering_and_shaders_in_godot_ch/)                                | Morning: free half day |
-| Fri, 12 Jun | 09:45         | U   | [Lighting](./topic_08_lighting_uw)                                                                           |                        |
+| Fri, 12 Jun | 09:45         | U   | [Lighting](./topic_09_lighting_uw)                                                                           |                        |
 | Mon, 15 Jun | 10:45         | C   |                                                                                                              |                        |
 | Tue, 16 Jun | 09:45         | U   |                                                                                                              |                        |
 | Wed, 17 Jun | 09:45         | C   |                                                                                                              |                        |

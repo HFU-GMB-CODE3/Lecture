@@ -1,7 +1,7 @@
 +++
 title = 'Lighting'
 draft = false
-weight = 80
+weight = 90
 +++
 
 ## Goal
@@ -31,6 +31,7 @@ We first get familiar with the code, then we implement basic lighting calculatio
   - [WebGL2 Fundamentals - Directional Lighting](https://webgl2fundamentals.org/webgl/lessons/webgl-3d-lighting-directional.html)
   - [WebGL2 Fundamentals - Point Lighting](https://webgl2fundamentals.org/webgl/lessons/webgl-3d-lighting-point.html)
   - [Gouraud and Phong Shading Demo](https://www.cs.toronto.edu/~jacobson/phong-demo/)
+  - [Graphics Codex](http://graphicscodex.com/)
 
 ## Tasks (for the "Shaded cube" demo)
 
