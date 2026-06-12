@@ -1,7 +1,7 @@
 +++
 title = 'Lighting'
-draft = true
-weight = 1060
+draft = false
+weight = 80
 +++
 
 ## Goal
