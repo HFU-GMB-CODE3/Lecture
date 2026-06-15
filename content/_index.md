@@ -45,16 +45,15 @@ with the projects. There won't be any new contents during these days.
 |Fri, 06. June  | Project                           | Project | - | Finish shader |
 -->
 
-
 ## Final Project
 
 For the final project, you can choose between WebGL and Godot. 
 
-
 ### WebGL
 
-Ceate a WebGL project implementing a hierarchical scene demonstrating how transformation is passed from the parent to the child objects. Implement one or more set(s) of shaders (vertex and fragment shader) that demonstrate a visual effect of your choice suiting the contents of your scene.
+Create a WebGL project implementing a scene with either several objects (hierarchical) or a single complex object. Implement your own [.obj loader](https://webgl2fundamentals.org/webgl/lessons/webgl-load-obj.html) if necessary. Implement one or more set(s) of shaders (vertex and fragment shader) that demonstrate a visual effect of your choice suiting the contents of your scene.
 
+It is also possible to implement something completely different, like a raytracer or raymarcher in Vulkan or WebGPU, but please check with the lecturers before starting such a project.
 
 ### Godot
 
@@ -63,13 +62,12 @@ Create a Godot implementing
 - A procedurally generated mesh with the ability to adjust at least the meshes tesselation (number of triangles)
 - One or more set(s) shaders implementing additional visual effect performing animation (either using animated uniforms or the TIME built-in variable)
 
-
 ### Submission
 
-The project will be presented in the last week of the course in groups of four. The entire project (including the source code) needs to be submitted by the end of the course block. <!-- Please upload your project to GitHub using this GitHub Classroom link: [GitHub Classroom](https://classroom.github.com/a/OHrUAKAB). Add a readme.md file so that we can understand your project. The readme should include:--> Besides the project, you will also need to submit a report (Markdown or PDF) that includes the following information:
+The project will be presented in the last week of the course in groups of four. The entire project (including the source code) needs to be submitted by the end of the course block. Please upload your project to GitHub using this GitHub Classroom link: [GitHub Classroom](https://classroom.github.com/a/AXVhmjPh). Add a readme.md file so that we can understand your project. The readme should include:
 
 - A short description of your project
-- How to run it (e.g., which files to open, how to start the server, etc.)
+- How to run it (e.g., which files to open, how to start the server, Godot Version, etc.)
 - A list of features you implemented
 - A list of features you wanted to implement but didn't have time for
 - Your name and email address
