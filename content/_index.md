@@ -17,13 +17,15 @@ weight = 0
 | Wed, 10 Jun | 11:30         | C   | [Shaders in Godot](./topic_07_rendering_and_shaders_in_godot_ch/#shaders-in-godot)                           |                        |
 | Thu, 11 Jun | 14:00         | C   | [Shaders in Godot (continued)](./topic_07_rendering_and_shaders_in_godot_ch/)                                | Morning: free half day |
 | Fri, 12 Jun | 09:45         | U   | [Lighting](./topic_09_lighting_uw)                                                                           |                        |
-| Mon, 15 Jun | 10:45         | C   |                                                                                                              |                        |
-| Tue, 16 Jun | 09:45         | U   |                                                                                                              |                        |
-| Wed, 17 Jun | 09:45         | C   |                                                                                                              |                        |
-| Thu, 18 Jun | 14:00         | U   |                                                                                                              | Morning: free half day |
-| Fri, 19 Jun | 09:45         | U&C |                                                                                                              | Exams                  |
+| Mon, 15 Jun | 10:45         | C   | Advanced Shading Techniques in Game Engines                                                                  |                        |
+| Tue, 16 Jun | 09:45*        | U   | Work on final project                                                                                        |                        |
+| Wed, 17 Jun | 09:45*        | C   | Work on final project                                                                                        |                        |
+| Thu, 18 Jun | 14:00*        | U   | Work on final project                                                                                        | Morning: free half day |
+| Fri, 19 Jun | 09:45         | U&C | Exams                                                                                                        |                        |
 | Mon, 22 Jun | 09:45         | U   |                                                                                                              | Post-exam follow-up    |
 
+(*) At the "Work on final project" days, the starting times mark the start of the lecturers' presence. Lecturers will be there for providing individual support
+with the projects. There won't be any new contents during these days. 
 
 
 <!-- 
@@ -44,7 +46,27 @@ weight = 0
 -->
 
 
-For the final project, you can choose between WebGL and Godot. The project will be presented in the last week of the course. The entire project (including the source code) needs to be submitted by the end of the course block. <!-- Please upload your project to GitHub using this GitHub Classroom link: [GitHub Classroom](https://classroom.github.com/a/OHrUAKAB). Add a readme.md file so that we can understand your project. The readme should include:--> Besides the project, you will also need to submit a report (Markdown or PDF) that includes the following information:
+## Final Project
+
+For the final project, you can choose between WebGL and Godot. 
+
+
+### WebGL
+
+Ceate a WebGL project implementing a hierarchical scene demonstrating how transformation is passed from the parent to the child objects. Implement one or more set(s) of shaders (vertex and fragment shader) that demonstrate a visual effect of your choice suiting the contents of your scene.
+
+
+### Godot
+
+Create a Godot implementing 
+
+- A procedurally generated mesh with the ability to adjust at least the meshes tesselation (number of triangles)
+- One or more set(s) shaders implementing additional visual effect performing animation (either using animated uniforms or the TIME built-in variable)
+
+
+### Submission
+
+The project will be presented in the last week of the course in groups of four. The entire project (including the source code) needs to be submitted by the end of the course block. <!-- Please upload your project to GitHub using this GitHub Classroom link: [GitHub Classroom](https://classroom.github.com/a/OHrUAKAB). Add a readme.md file so that we can understand your project. The readme should include:--> Besides the project, you will also need to submit a report (Markdown or PDF) that includes the following information:
 
 - A short description of your project
 - How to run it (e.g., which files to open, how to start the server, etc.)
@@ -52,6 +74,9 @@ For the final project, you can choose between WebGL and Godot. The project will 
 - A list of features you wanted to implement but didn't have time for
 - Your name and email address
 
+### Exam
+
+The exams will take places in parties of four (four students are examined simultaneously). Prepare to demonstrate your project and to explain how it works. Prepare for questions such as "what would you do to add a feature like xxx to your project?"!  
 
 ## [hfu.li/COD-III](https://hfu.li/COD-III)
 
