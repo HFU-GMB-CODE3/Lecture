@@ -22,7 +22,7 @@ weight = 0
 | Wed, 17 Jun | 09:45*        | C   | Work on final project                                                                                        |                        |
 | Thu, 18 Jun | 14:00*        | U   | Work on final project                                                                                        | Morning: free half day |
 | Fri, 19 Jun | 09:45         | U&C | Exams                                                                                                        |                        |
-| Mon, 22 Jun | 09:45         | U   |                                                                                                              | Post-exam follow-up    |
+| Mon, 22 Jun | 09:45         | U   | [Evaluation](https://felix.hs-furtwangen.de/auth/RepositoryEntry/78184789/CourseNode/113914304811493)        | Post-exam follow-up    |
 
 (*) At the "Work on final project" days, the starting times mark the start of the lecturers' presence. Lecturers will be there for providing individual support
 with the projects. There won't be any new contents during these days. 
